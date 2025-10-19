@@ -4,16 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>웹프로그래밍 중간과제 학식 1주일 메뉴 웹페이지 제작</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Single+Day&display=swap');
+    </style>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav></nav>
-    <div class="hero"></div>
+    <div class="header-section">
+      <div class="menu-title">
+        <h1>상명대 푸드코트 엘리시온 주간식단표</h1>
+      </div>
+    </div>
+
     <div class="menu_wrap">
       <div class="menu">
-        <div class="menu-title">
-          <h1>상명대 푸드코트 엘리시온 주간식단표</h1>
+        <div class="cat-character">
+          <img src="./assets/cat-img.png" alt="고양이 캐릭터" />
+          <!-- 출처: chatGPT -->
         </div>
+
         <div class="menu-table">
           <table>
             <thead>
@@ -65,7 +74,7 @@
                 </td>
                 <td class="menu-box">
                   <ul class="menu-text-1000">
-                    <li>모닝빵샌드위치/야채죽</li>
+                    <li class="best-menu">모닝빵샌드위치/야채죽 ⭐</li>
                     <li>만두강정</li>
                   </ul>
                   <ul class="menu-text-basic">
@@ -224,6 +233,11 @@
           </p>
           <p>상기 메뉴는 수급 사정에 따라 변경 될수 있습니다.</p>
           <p>주간식단표는 카카오채널 "상명대엘리시온" 참고해주세요.</p>
+
+          <div class="etc-character">
+            <img src="./assets/etc-img-1.png" alt="etc 캐릭터" />
+            <!-- 출처: chatGPT -->
+          </div>
         </div>
         <div class="menu-coo">
           <table class="menu-coo-table">
